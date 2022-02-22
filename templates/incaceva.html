@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>ID = {{ id }}</h1>
+
+{% if lista %}
+
+<ol>
+    {% for item in lista %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ol>
+
+{% endif %}
+
+{% endblock content %}

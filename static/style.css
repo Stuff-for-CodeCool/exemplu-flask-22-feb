@@ -1,0 +1,8 @@
+html {
+    font: 16px / 1.6 sans-serif;
+}
+
+body {
+    max-width: 40rem;
+    margin: 1rem auto;
+}
